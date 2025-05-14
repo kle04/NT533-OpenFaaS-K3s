@@ -61,7 +61,7 @@ The system utilizes OpenFaaS deployed on a K3s Cluster (1 master, 2 worker nodes
 - Real-time system monitoring using Prometheus and Grafana.
 
 ## Installation
-Scripts and configurations for setting up the cluster, installing OpenFaaS, and exposing services are available in the [`scripts`](./scripts/) directory.
+Scripts and configurations for setting up the cluster, installing OpenFaaS, and exposing services are available in the [`functions`](./functions/) directory.
 
 ## Monitoring
 Prometheus and Grafana configurations are included to provide robust system metrics and visualization.
