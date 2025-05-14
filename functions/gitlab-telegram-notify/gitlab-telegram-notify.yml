@@ -1,0 +1,12 @@
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  gitlab-telegram-notify:
+    lang: python3
+    handler: ./gitlab-telegram-notify
+    image: username/gitlab-telegram-notify:latest
+    environment:
+      TELEGRAM_BOT_TOKEN: "{API}"
+      TELEGRAM_CHAT_ID: "{API}"
